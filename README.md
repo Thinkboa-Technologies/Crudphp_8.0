@@ -11,7 +11,7 @@ This is a simple PHP-based CRUD (Create, Read, Update, Delete) application for m
 ## Setup
 1. Ensure you have a web server with PHP and MySQL installed (e.g., XAMPP, WAMP, MAMP).
 2. Create a database named `crud_app`.
-3. Import the `users.sql` file (if provided) into your database, or create a `users` table with `id`, `name`, `email`, and `age` columns.
+3. Import the `Cruddb.sql` file (if provided) into your database, or create a `users` table with `id`, `name`, `email`, and `age` columns.
 4. Place the application files in your web server's document root (e.g., `htdocs` for XAMPP).
 5. Configure the database connection in `db/db.php`.
 
@@ -23,3 +23,4 @@ Access the application through your web browser:
 - PHP: 8.x
 - MySQL: 8.x
 - Bootstrap: 5.x
+  
